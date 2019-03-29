@@ -3,7 +3,7 @@ import { default as CategorizedDataLogger } from './logger';
 import { registerLoggerRoutes } from './routes';
 import { default as bodyParser } from 'body-parser';
 
-const PORT = 13313;
+const PORT = 8080;
 const LOGGING_PATH = './logs';
 
 const app: Express = BuildExpressApp();
