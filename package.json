@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo 'please use the build.sh script instead, this is a dockerized app!'",
     "build": "echo 'please use the build.sh script instead, this is a dockerized app!'",
-    "start": "echo 'please use the build.sh script instead, this is a dockerized app!'"
+    "start": "echo 'please use the build.sh script instead, this is a dockerized app!'",
+	"build-dev": "npx tsc",
+	"start-dev": "npx tsc && node app/index.js"
   },
   "author": "",
   "license": "Unlicense",

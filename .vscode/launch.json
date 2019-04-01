@@ -9,11 +9,12 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "preLaunchTask": "npm: build",
+            "preLaunchTask": "npm: build-dev",
             "program": "${workspaceFolder}/src/index.ts",
             "outFiles": [
-                "${workspaceFolder}/build/**/*.js"
-            ]
+                "${workspaceFolder}/app/**/*.js"
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
