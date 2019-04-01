@@ -1,3 +1,4 @@
+#!bash
 set -e
 
 echo "building the js app..."
